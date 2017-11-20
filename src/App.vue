@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h2> Todolist </h2>
+    <h2> Todo list </h2>
     <input id="add-input" v-model="todoText" @keyup.enter="addTodo" placeholder="do what?"/>
     <ul>
       <todo v-for="(todoItem,index) in todoList" :todoItem="todoItem" :index="index"></todo>
