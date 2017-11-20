@@ -1,30 +1,12 @@
-# first-project
+# 文档
 
-> A Vue.js project
+## 简介
+实现了一个Todo list用于记录要做的事情并实现勾选完成及删除的功能
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 功能介绍
+- 添加要做的事情
+	在输入框中输入要做的事情，输入完成敲击回车，事情就会出现在输入框下面	且前面带有序号。
+- 标记事情完成
+	输入事情后，事情默认为未完成状态。通过点击序号之前的方格将事情标记为	已完成状态，此时在事情的后面会出现红色的finish标记。
+- 删除事件
+	若想要删除已添加的事件，将光标移动到该事件上，事件后会出现灰色的	delete标记，点击delete标记即可将该事件删除。
